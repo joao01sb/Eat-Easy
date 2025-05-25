@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bebidas",
+      "image_url": "https://www.designi.com.br/images/preview/11110298.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Almoço",
+      "image_url": "https://www.designi.com.br/images/preview/11110299.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Lanches",
+      "image_url": "https://www.designi.com.br/images/preview/11110300.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pizzas",
+      "image_url": "https://www.designi.com.br/images/preview/11110301.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sorvetes",
+      "image_url": "https://www.designi.com.br/images/preview/11110302.jpg"
+    }
+  ]
+}

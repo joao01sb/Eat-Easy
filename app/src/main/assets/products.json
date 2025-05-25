@@ -1,0 +1,304 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Coca-Cola 2L",
+      "category": "Bebidas",
+      "id_category": 1,
+      "price": "8.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110303.jpg",
+      "is_promotional": true,
+      "description": "Refrigerante Coca-Cola 2 litros gelado"
+    },
+    {
+      "id": 2,
+      "name": "Suco de Laranja Natural",
+      "category": "Bebidas",
+      "id_category": 1,
+      "price": "6.00",
+      "image_url": "https://www.designi.com.br/images/preview/11110304.jpg",
+      "is_promotional": false,
+      "description": "Suco natural de laranja 500ml"
+    },
+    {
+      "id": 3,
+      "name": "Água Mineral 1.5L",
+      "category": "Bebidas",
+      "id_category": 1,
+      "price": "3.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110305.jpg",
+      "is_promotional": false,
+      "description": "Água mineral sem gás 1.5 litros"
+    },
+    {
+      "id": 4,
+      "name": "Cerveja Heineken Long Neck",
+      "category": "Bebidas",
+      "id_category": 1,
+      "price": "4.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110306.jpg",
+      "is_promotional": true,
+      "description": "Cerveja Heineken 330ml gelada"
+    },
+    {
+      "id": 5,
+      "name": "Guaraná Antarctica 2L",
+      "category": "Bebidas",
+      "id_category": 1,
+      "price": "7.80",
+      "image_url": "https://www.designi.com.br/images/preview/11110307.jpg",
+      "is_promotional": false,
+      "description": "Refrigerante Guaraná Antarctica 2 litros"
+    },
+    {
+      "id": 6,
+      "name": "Prato Feito Completo",
+      "category": "Almoço",
+      "id_category": 2,
+      "price": "18.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110308.jpg",
+      "is_promotional": true,
+      "description": "Arroz, feijão, farofa, salada, batata frita e bife acebolado"
+    },
+    {
+      "id": 7,
+      "name": "Feijoada Completa",
+      "category": "Almoço",
+      "id_category": 2,
+      "price": "25.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110309.jpg",
+      "is_promotional": false,
+      "description": "Feijoada completa com acompanhamentos tradicionais"
+    },
+    {
+      "id": 8,
+      "name": "Grelhados do Dia",
+      "category": "Almoço",
+      "id_category": 2,
+      "price": "22.00",
+      "image_url": "https://www.designi.com.br/images/preview/11110310.jpg",
+      "is_promotional": true,
+      "description": "Frango ou carne grelhada com salada e arroz integral"
+    },
+    {
+      "id": 9,
+      "name": "Lasanha à Bolonhesa",
+      "category": "Almoço",
+      "id_category": 2,
+      "price": "19.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110311.jpg",
+      "is_promotional": false,
+      "description": "Lasanha tradicional com molho bolonhesa e queijo"
+    },
+    {
+      "id": 10,
+      "name": "Peixe Grelhado",
+      "category": "Almoço",
+      "id_category": 2,
+      "price": "28.00",
+      "image_url": "https://www.designi.com.br/images/preview/11110312.jpg",
+      "is_promotional": true,
+      "description": "Filé de peixe grelhado com legumes e arroz de coco"
+    },
+    {
+      "id": 11,
+      "name": "X-Burguer Clássico",
+      "category": "Lanches",
+      "id_category": 3,
+      "price": "15.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110313.jpg",
+      "is_promotional": true,
+      "description": "Hambúrguer, queijo, alface, tomate e batata frita"
+    },
+    {
+      "id": 12,
+      "name": "X-Bacon Especial",
+      "category": "Lanches",
+      "id_category": 3,
+      "price": "18.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110314.jpg",
+      "is_promotional": false,
+      "description": "Hambúrguer com bacon, queijo e molho especial"
+    },
+    {
+      "id": 13,
+      "name": "Sanduíche Natural",
+      "category": "Lanches",
+      "id_category": 3,
+      "price": "12.00",
+      "image_url": "https://www.designi.com.br/images/preview/11110315.jpg",
+      "is_promotional": false,
+      "description": "Sanduíche integral com peito de peru e salada"
+    },
+    {
+      "id": 14,
+      "name": "Hot Dog Completo",
+      "category": "Lanches",
+      "id_category": 3,
+      "price": "10.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110316.jpg",
+      "is_promotional": true,
+      "description": "Hot dog com salsicha, purê, batata palha e molhos"
+    },
+    {
+      "id": 15,
+      "name": "Wrap de Frango",
+      "category": "Lanches",
+      "id_category": 3,
+      "price": "14.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110317.jpg",
+      "is_promotional": false,
+      "description": "Wrap com frango grelhado, salada e molho ranch"
+    },
+    {
+      "id": 16,
+      "name": "Pizza Margherita Média",
+      "category": "Pizzas",
+      "id_category": 4,
+      "price": "32.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110318.jpg",
+      "is_promotional": true,
+      "description": "Pizza com molho de tomate, mussarela e manjericão"
+    },
+    {
+      "id": 17,
+      "name": "Pizza Calabresa Grande",
+      "category": "Pizzas",
+      "id_category": 4,
+      "price": "38.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110319.jpg",
+      "is_promotional": false,
+      "description": "Pizza grande com calabresa, cebola e azeitonas"
+    },
+    {
+      "id": 18,
+      "name": "Pizza Portuguesa Família",
+      "category": "Pizzas",
+      "id_category": 4,
+      "price": "45.00",
+      "image_url": "https://www.designi.com.br/images/preview/11110320.jpg",
+      "is_promotional": true,
+      "description": "Pizza família com presunto, ovos, cebola e azeitonas"
+    },
+    {
+      "id": 19,
+      "name": "Pizza Quatro Queijos",
+      "category": "Pizzas",
+      "id_category": 4,
+      "price": "40.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110321.jpg",
+      "is_promotional": false,
+      "description": "Pizza com mussarela, catupiry, parmesão e gorgonzola"
+    },
+    {
+      "id": 20,
+      "name": "Pizza Pepperoni",
+      "category": "Pizzas",
+      "id_category": 4,
+      "price": "36.00",
+      "image_url": "https://www.designi.com.br/images/preview/11110322.jpg",
+      "is_promotional": false,
+      "description": "Pizza com pepperoni e queijo mussarela"
+    },
+    {
+      "id": 21,
+      "name": "Sorvete de Chocolate 2L",
+      "category": "Sorvetes",
+      "id_category": 5,
+      "price": "24.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110323.jpg",
+      "is_promotional": true,
+      "description": "Sorvete cremoso de chocolate 2 litros"
+    },
+    {
+      "id": 22,
+      "name": "Açaí na Tigela 500ml",
+      "category": "Sorvetes",
+      "id_category": 5,
+      "price": "16.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110324.jpg",
+      "is_promotional": false,
+      "description": "Açaí natural com granola, banana e mel"
+    },
+    {
+      "id": 23,
+      "name": "Sundae de Morango",
+      "category": "Sorvetes",
+      "id_category": 5,
+      "price": "12.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110325.jpg",
+      "is_promotional": false,
+      "description": "Sorvete de baunilha com calda de morango e chantilly"
+    },
+    {
+      "id": 24,
+      "name": "Picolé Gourmet Mix",
+      "category": "Sorvetes",
+      "id_category": 5,
+      "price": "8.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110326.jpg",
+      "is_promotional": false,
+      "description": "Picolé gourmet sabores variados"
+    },
+    {
+      "id": 25,
+      "name": "Milk Shake Ovomaltine",
+      "category": "Sorvetes",
+      "id_category": 5,
+      "price": "14.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110327.jpg",
+      "is_promotional": true,
+      "description": "Milk shake cremoso de ovomaltine com chantilly"
+    },
+    {
+      "id": 26,
+      "name": "Tacos Mexicanos",
+      "category": "Lanches",
+      "id_category": 3,
+      "price": "16.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110328.jpg",
+      "is_promotional": false,
+      "description": "3 tacos com carne temperada, salada e molho picante"
+    },
+    {
+      "id": 27,
+      "name": "Risotto de Camarão",
+      "category": "Almoço",
+      "id_category": 2,
+      "price": "35.00",
+      "image_url": "https://www.designi.com.br/images/preview/11110329.jpg",
+      "is_promotional": false,
+      "description": "Risotto cremoso com camarões frescos"
+    },
+    {
+      "id": 28,
+      "name": "Suco Detox Verde",
+      "category": "Bebidas",
+      "id_category": 1,
+      "price": "9.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110330.jpg",
+      "is_promotional": false,
+      "description": "Suco detox com couve, limão, gengibre e maçã"
+    },
+    {
+      "id": 29,
+      "name": "Combo Família Pizza",
+      "category": "Pizzas",
+      "id_category": 4,
+      "price": "65.90",
+      "image_url": "https://www.designi.com.br/images/preview/11110331.jpg",
+      "is_promotional": true,
+      "description": "2 pizzas grandes + 2 refrigerantes 2L"
+    },
+    {
+      "id": 30,
+      "name": "Salada Caesar Completa",
+      "category": "Almoço",
+      "id_category": 2,
+      "price": "21.50",
+      "image_url": "https://www.designi.com.br/images/preview/11110332.jpg",
+      "is_promotional": false,
+      "description": "Salada caesar com frango grelhado e croutons"
+    }
+  ]
+}
