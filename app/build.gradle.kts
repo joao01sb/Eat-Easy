@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -57,6 +58,12 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.9.0")
     implementation("io.coil-kt:coil-compose:2.7.0")
     implementation("br.com.devsrsouza.compose.icons:eva-icons:1.1.1")
+    implementation("io.insert-koin:koin-androidx-compose:4.0.4")
+    implementation("com.google.code.gson:gson:2.13.1")
+
+    implementation("androidx.room:room-runtime:2.7.1")
+    ksp("androidx.room:room-compiler:2.7.1")
+    implementation("androidx.room:room-ktx:2.7.1")
 
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("androidx.compose.ui:ui-tooling")
