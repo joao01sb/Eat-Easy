@@ -1,5 +1,4 @@
-{
-  "products": [
+[
     {
       "id": 1,
       "name": "Coca-Cola 2L",
@@ -301,4 +300,3 @@
       "description": "Salada caesar com frango grelhado e croutons"
     }
   ]
-}

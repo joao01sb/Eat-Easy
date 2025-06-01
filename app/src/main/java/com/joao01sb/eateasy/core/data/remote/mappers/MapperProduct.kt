@@ -4,6 +4,7 @@ import com.joao01sb.eateasy.core.data.remote.reponse.ItemCategoryResponse
 import com.joao01sb.eateasy.core.data.remote.reponse.ProductResponse
 import com.joao01sb.eateasy.core.domain.model.Category
 import com.joao01sb.eateasy.core.domain.model.Product
+import com.joao01sb.eateasy.core.domain.model.SearchResultProduct
 
 fun ProductResponse.toModel() = Product(
     idProduct = id,

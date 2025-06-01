@@ -1,28 +1,26 @@
-{
-  "messages": [
-    {
-      "message_id": "1",
-      "order_id": "1",
-      "sender": "client",
-      "content": "Boa tarde! Meu pedido já saiu para entrega? Fiz o pedido há mais de 1 hora e ainda não recebi nenhuma atualização. Estou preocupado com o atraso.",
-      "timestamp": "2025-05-25T14:30:00Z",
-      "read": false
-    },
-    {
-      "message_id": "2",
-      "order_id": "2",
-      "sender": "client",
-      "content": "Olá, gostaria de saber o que aconteceu com meu pedido. O tempo estimado era de 45 minutos e já se passaram quase 2 horas. Preciso de uma posição urgente!",
-      "timestamp": "2025-05-25T15:45:00Z",
-      "read": false
-    },
-    {
-      "message_id": "3",
-      "order_id": "3",
-      "sender": "client",
-      "content": "Pessoal, meu pedido está muito atrasado. Já tentei ligar mas ninguém atende. O prazo de entrega já passou há muito tempo. Pelo menos me informem se vai chegar hoje ainda.",
-      "timestamp": "2025-05-25T16:20:00Z",
-      "read": true
-    }
-  ]
-}
+[
+  {
+    "message_id": "1",
+    "order_id": "1",
+    "sender": "client",
+    "content": "Boa tarde! Meu pedido já saiu para entrega? Fiz o pedido há mais de 1 hora e ainda não recebi nenhuma atualização. Estou preocupado com o atraso.",
+    "timestamp": "2025-05-25T14:30:00Z",
+    "read": false
+  },
+  {
+    "message_id": "2",
+    "order_id": "2",
+    "sender": "client",
+    "content": "Olá, gostaria de saber o que aconteceu com meu pedido. O tempo estimado era de 45 minutos e já se passaram quase 2 horas. Preciso de uma posição urgente!",
+    "timestamp": "2025-05-25T15:45:00Z",
+    "read": false
+  },
+  {
+    "message_id": "3",
+    "order_id": "3",
+    "sender": "client",
+    "content": "Pessoal, meu pedido está muito atrasado. Já tentei ligar mas ninguém atende. O prazo de entrega já passou há muito tempo. Pelo menos me informem se vai chegar hoje ainda.",
+    "timestamp": "2025-05-25T16:20:00Z",
+    "read": true
+  }
+]

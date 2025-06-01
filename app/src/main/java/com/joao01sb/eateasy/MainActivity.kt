@@ -3,50 +3,66 @@ package com.joao01sb.eateasy
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.Button
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.joao01sb.eateasy.ui.theme.EatEasyTheme
+import androidx.compose.ui.graphics.Color
+import androidx.navigation.compose.rememberNavController
+import com.joao01sb.eateasy.core.presentation.composables.BottomNavigationBarCompose
+import com.joao01sb.eateasy.core.presentation.navigation.AppNavHost
+import com.joao01sb.eateasy.core.presentation.navigation.graphs.navigateToHome
+import com.joao01sb.eateasy.core.presentation.navigation.graphs.navigateToShoppingCart
+import com.joao01sb.eateasy.core.presentation.theme.EatEasyTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             EatEasyTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    StartApp()
                 }
             }
         }
     }
-}
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
+    @Composable
+    private fun StartApp() {
+        val navController = rememberNavController()
 
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    EatEasyTheme {
-        Greeting("Android")
-    }
-}
+        Scaffold(
+            containerColor = Color.White,
+            bottomBar = {
+                BottomNavigationBarCompose(
+                    navController = rememberNavController(),
+                    onClickHome = {
+                        navController.navigateToHome()
+                    },
+                    onClickRequests = {
 
-@Preview
-@Composable
-fun buttomLocation() {
-    Button(onClick = { /*TODO*/ }) {
+                    },
+                    onClickShoppingCart = {
+                        navController.navigateToShoppingCart()
+                    },
+                    onClickMessage = {
 
+                    }
+                )
+            }
+        ) {
+            Column(
+                modifier = Modifier.padding(it)
+            ) {
+                AppNavHost(navController = navController)
+            }
+        }
     }
 }
